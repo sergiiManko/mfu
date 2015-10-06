@@ -1,5 +1,7 @@
 package com.igor.util;
 
+import java.util.Date;
+
 /**
  * Created by IntelliJ IDEA.
  * User: igor
@@ -8,4 +10,7 @@ package com.igor.util;
  * To change this template use File | Settings | File Templates.
  */
 public class Util {
+    public static Date getDate(){
+        return new Date();
+    }
 }
