@@ -3,15 +3,17 @@ package com.igor.util;
 import java.util.Date;
 
 /**
- * Created by IntelliJ IDEA.
- * User: igor
- * Date: 06.10.15
- * Time: 20:13
- * To change this template use File | Settings | File Templates.
- */
+ * Created by Igor Holyak
+  * Date: 06.10.15
+  */
+
 public class Util {
     public static Date getDate(){
         return new Date();
 
+    }
+
+    public static long getTime(){
+        return new Date().getTime();
     }
 }
