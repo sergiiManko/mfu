@@ -13,7 +13,4 @@ public class Util {
 
     }
 
-    public static long getTime(){
-        return new Date().getTime();
-    }
 }
