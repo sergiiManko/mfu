@@ -5,4 +5,13 @@
 <web-app>
   <display-name>Archetype Created Web Application</display-name>
 
+       <servlet>
+           <servlet-name>upload</servlet-name>
+           <servlet-class>com.igor.UploadController</servlet-class>
+       </servlet>
+
+    <servlet-mapping>
+        <servlet-name>upload</servlet-name>
+        <url-pattern>/upload</url-pattern>
+    </servlet-mapping>
 </web-app>
